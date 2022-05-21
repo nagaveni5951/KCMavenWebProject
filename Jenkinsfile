@@ -2,7 +2,7 @@ node(){
     
     stage("checkout from SCM"){
         
-      git 'https://github.com/KCTechnologiesDevOps/KCMavenWebProject.git'  
+      git 'https://github.com/nagaveni5951/KCMavenWebProject.git'  
     }
     stage("Maven build"){
         def mvnHome = tool name: 'M2_HOME', type: 'maven'
